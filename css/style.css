@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Manraj-Regular';
+    src: url(../font/Manraj-Regular.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header1 {
+    padding: 70px;
+    text-align: center;
+    color: white;
+    background: -webkit-linear-gradient(left, rgb(23, 6, 97), rgb(139, 112, 255), rgb(47, 14, 194));
+}
+
+.header1 h1 {
+    background: -webkit-linear-gradient(left, violet, indigo, blue, green, yellow, orange, red);
+    font-size: 72px;
+    margin-bottom: 30px;
+    border: 5px solid black;
+    border-radius: 20px 50px;
+    -webkit-border-radius: 20px 50px;
+    -moz-border-radius: 20px 50px;
+    -ms-border-radius: 20px 50px;
+    -o-border-radius: 20px 50px;
+}
+
+.header1 p {
+    font-size: 25px;
+}
+
+nav {
+    background-color: #333;
+    padding: 12px 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 13px 10px;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 18px;
+}
+
+.active {
+    background-color: yellowgreen;
+}
+
+nav a:hover {
+    background-color: grey;
+}
+
+
+/*################################################################*/
+
+.background {
+    background: -webkit-linear-gradient(left, rgb(105, 13, 167), rgb(189, 91, 255), rgb(60, 11, 93));
+}
+
+#write {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#write h1 {
+    color: white;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+#write h4 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#write h4 span {
+    color: red;
+}
+
+#write textarea {
+    padding: 10px;
+    height: 150px;
+    width: 350px;
+    font-family: 'Manraj-Regular';
+    font-size: 25px;
+    font-weight: 900;
+}
+
+footer {
+    background: rgb(36, 35, 35);
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    padding: 5px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ############################################################### Media quries ##############################################*/
+
+@media screen and (max-width: 426px) {
+    .header1 h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 352px) {
+    #write h1 {
+        font-size: 30px;
+    }
+    .header1 h1 {
+        font-size: 40px;
+    }
+    #write textarea {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .header1 h1 {
+        font-size: 25px;
+    }
+}
